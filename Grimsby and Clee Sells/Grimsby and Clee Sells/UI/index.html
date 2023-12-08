@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- end of bootstrap -->
+</head>
+    <header>
+        <h1>Grimsby and Clee Sells</h1>
+    </header>
+<body>
+    <div class="container centercontents" id="indexoptions">
+        <div class="row">
+            <!-- login form -->
+            <div class="col-md-5 col-sm-12 index ">
+                <h1>login</h1>
+                <form action="">
+                    <label for="username">username</label>
+                    <input type="text" name="username" id="username">
+                    
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password">
+
+                    <input type="submit">
+                </form>
+            </div>
+
+            <div class="col-md-2 col-sm-12"></div>
+
+            <!-- sign-up form -->
+            <div class="col-md-5 col-sm-12 index">
+                <h1>sign-up</h1>
+                <form action="">
+                    <label for="username">username</label>
+                    <input type="text" name="username" id="username">
+
+                    <label for="firstname">first name</label>
+                    <input type="text" name="firstname" id="firstname">
+
+                    <label for="lastname">last name</label>
+                    <input type="text" name="lastname" id="lastname">
+
+                    <label for="dob">date of birth</label>
+                    <input type="date" name="dob" id="dob">
+
+                    <label for="email">email</label>
+                    <input type="text" name="email" id="dob">
+
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password">
+
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="indexcardcontainer">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 indexcard">
+                <div>
+                    <div>
+                        <h1>Unmatched Quality</h1>
+                        <p>Explore a world of choices at our online shop, where our curated selection ensures you find exactly what you're
+                             looking for.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 indexcard">
+                <div>
+                    <div>
+                        <h1>Your Wallet's Best Friend</h1>
+                        <p>Shop smart and save big! Our online store is your go-to destination for unbeatable deals and exclusive discounts.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 indexcard">
+                <div>
+                    <div>
+                        <h1>Seamless Shopping</h1>
+                        <p>Experience the epitome of convenience with our user-friendly online shop. Navigating through our site is a breeze,
+                             and our dedicated customer service team ensures that your satisfaction is our priority.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p> &copy<span id="copyrightyear"></span> Grimsby and Clee sells. All Rights Reserved</p>
+</footer>
+
+<script>
+      // Java script used to get the year 
+      document.getElementById("copyrightyear").innerHTML = new Date().getFullYear();
+  // END OF GET YEAR 
+</script>
+</html>
